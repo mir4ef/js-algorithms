@@ -20,7 +20,7 @@
 
         const numSqrt = Math.sqrt(num);
 
-        for (let i = 3; i <= numSqrt; i += 2) {
+        for (let i = 3; i <= numSqrt; i++) {
             if (num % i === 0) {
                 return false;
             }
